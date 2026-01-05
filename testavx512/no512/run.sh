@@ -1,0 +1,1 @@
+c++ -fomit-frame-pointer -fverbose-asm -O3 -march=native -S tmp.cpp -o avx512.S

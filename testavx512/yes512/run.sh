@@ -1,0 +1,1 @@
+c++ -O3 -march=native -mprefer-vector-width=512 -fomit-frame-pointer -S tmp.cpp -o avx512.S
